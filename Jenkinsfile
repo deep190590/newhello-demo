@@ -4,8 +4,7 @@ pipeline {
          stages {
                  stage ('compile stage'){
                                     steps {
-                                           clean install package 
-        }
+                                             clean install }
 
 
     } 
